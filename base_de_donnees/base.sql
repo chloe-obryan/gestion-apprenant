@@ -19,7 +19,6 @@ create table Apprenant
    formationD_origine   varchar(100),
    telephone            int,
    email                varchar(100),
-   photo                TINYBLOB(1),
    primary key (idApprenant)
 );
 
